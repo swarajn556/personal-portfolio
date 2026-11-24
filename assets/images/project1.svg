@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="360" rx="16" fill="url(#p1Grad)"/>
+  
+  <!-- Browser Window Chrome -->
+  <rect x="20" y="20" width="560" height="320" rx="10" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+  <rect x="20" y="20" width="560" height="40" rx="10" fill="#0f172a"/>
+  
+  <!-- Window buttons -->
+  <circle cx="45" cy="40" r="6" fill="#ef4444"/>
+  <circle cx="65" cy="40" r="6" fill="#f59e0b"/>
+  <circle cx="85" cy="40" r="6" fill="#10b981"/>
+  
+  <!-- URL Bar -->
+  <rect x="110" y="30" width="380" height="20" rx="5" fill="#1e293b"/>
+  <text x="210" y="44" fill="#94a3b8" font-family="monospace" font-size="11">https://swaraj.dev/portfolio</text>
+
+  <!-- Mock Website Content -->
+  <!-- Header nav -->
+  <rect x="40" y="80" width="90" height="14" rx="4" fill="url(#accent1)"/>
+  <rect x="420" y="82" width="35" height="10" rx="3" fill="#64748b"/>
+  <rect x="465" y="82" width="35" height="10" rx="3" fill="#64748b"/>
+  <rect x="510" y="82" width="45" height="10" rx="3" fill="#38bdf8"/>
+
+  <!-- Hero Content Left -->
+  <rect x="50" y="125" width="120" height="12" rx="4" fill="#38bdf8" opacity="0.8"/>
+  <rect x="50" y="150" width="220" height="24" rx="6" fill="#f8fafc"/>
+  <rect x="50" y="186" width="240" height="10" rx="3" fill="#94a3b8"/>
+  <rect x="50" y="204" width="200" height="10" rx="3" fill="#94a3b8"/>
+  <rect x="50" y="235" width="100" height="32" rx="8" fill="url(#accent1)"/>
+  <rect x="165" y="235" width="100" height="32" rx="8" fill="none" stroke="#64748b" stroke-width="2"/>
+
+  <!-- Hero Content Right (Mock Graphic) -->
+  <circle cx="430" cy="200" r="65" fill="#334155" stroke="#38bdf8" stroke-width="3"/>
+  <circle cx="430" cy="180" r="24" fill="#6366f1"/>
+  <path d="M 390 245 C 390 215, 470 215, 470 245 Z" fill="#6366f1"/>
+
+  <!-- Code tag floating -->
+  <rect x="340" y="270" width="180" height="28" rx="6" fill="#0f172a" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="430" y="288" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="bold" text-anchor="middle">HTML5 • CSS3 Flexbox</text>
+</svg>
